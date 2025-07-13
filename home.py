@@ -29,9 +29,9 @@ arquivo_upload = st.sidebar.file_uploader('Selecione o arquivo a ser analisado')
 car_escolhido = st.sidebar.text_input(label='Digite o código do CAR')
 
 # para rodar na nuvem
-embargo = '/dados/embargos/adm_embargos_ibama_a.shp'
-desmatamento = '/dados/prodes/yearly_deforestation-2002-2024.shp'
-tis = '/dados/ti/ti_sirgasPolygon.shp'
+embargo = 'dados/embargos/adm_embargos_ibama_a.shp'
+desmatamento = 'dados/prodes/yearly_deforestation-2002-2024.shp'
+tis = 'dados/ti/ti_sirgasPolygon.shp'
 # para rodar no local
 #embargo = r'dados\embargos\adm_embargos_ibama_a.shp'
 #desmatamento = r'dados\prodes\yearly_deforestation-2002-2024.shp'
